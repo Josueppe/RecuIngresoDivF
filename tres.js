@@ -29,11 +29,11 @@ function mostrar()
 	let preciofelipe;
 	let acumfelipe=0;
 	let contfelipe=0;
-	let precioargentina;
-	let perdidaargentina;
+	let precioargentina=0;
+	let perdidaargentina=0;
 	let acumargentina=0;
 	let contargentina=0;
-	let precioiluminatis;
+	let precioiluminatis=0;
 	let acumilu=0;
 	let contilu=0;
 	let respuesta;
@@ -50,7 +50,7 @@ function mostrar()
 		nombre=prompt("Ingrese el nombre");
 
 		cantidadlamparas = parseInt(prompt("Ingrese cantidad de lamparas a comprar"));
-        while (isNaN(cantidadlamparas) || cantidadlamparas >= 0) {
+        while (isNaN(cantidadlamparas) || cantidadlamparas <= 0) {
             cantidadlamparas = parseInt(prompt("Error. Ingrese cantidad de lamparas a comprar"));
         }
 
@@ -67,7 +67,7 @@ function mostrar()
 		}
 
 
-		preciototalsindescontar=cantidadlamparas*preciounitario;
+		preciototalsindescontar=(cantidadlamparas*preciounitario);
 
 
 //Se sabe que si la marca es FelipeLamparas y la cantidad de lamparas supera las 5 unidades, 

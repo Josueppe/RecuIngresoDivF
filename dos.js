@@ -91,7 +91,7 @@ function mostrar()
         //------------------------------------- b) El nombre de la alumna mas joven.
 
         
-            if (sexo == "f"&&(flagalumnajoven || edad < edadalumnajoven)) {
+            if (sexo == "femenino"&&(flagalumnajoven || edad < edadalumnajoven)) {
                 edadalumnajoven = edad;
                 nombrealumnajoven = nombre;
                 flagMujerJoven = 0;
@@ -161,7 +161,7 @@ function mostrar()
     }
 
 
-    console.log("c) Los porcentajes de los que estudian son;  Fisica" + porcentajefis+", Quimica "+porcentajequim+" y  Sistemas "+porcentajesis);
+    console.log("c) Los porcentajes de los que estudian son;  Fisica" + porcentajefis+"%, Quimica "+porcentajequim+"% y  Sistemas "+porcentajesis+"%");
 
 
     //--------------------------D
