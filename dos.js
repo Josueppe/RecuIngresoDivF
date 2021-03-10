@@ -14,15 +14,11 @@ d) La edad y nombre del estudiante que cursa mas materias exceptuando la carrera
 Curso de ingreso UTN FRA*/
 
 
-
+//Josue Suarez
 
 function mostrar()
 {
-
-
-
-
-    
+   
     let nombre;
     let carrera;
     let sexo;
@@ -148,29 +144,25 @@ function mostrar()
 
     if (contfis!=0){
     porcentajefis = (contfis * 100) / contalumnostotales
-    console.log("c) 1- El porcentaje de los que estudian fisica es " + porcentajefis);
     }else{
-        console.log("c) 1- El porcentaje de los que estudian fisica es 0 ");
-
+        porcentajefis=0;
     }
-
 
     if (contquim!=0){
     porcentajequim = (contquim * 100) / contalumnostotales;
-    console.log("c) 2- El porcentaje de los que estudian quimica es " + porcentajequim);
     }else{
-        console.log("c) 2- El porcentaje de los que estudian quimica es 0 ");
-
+        porcentajequim=0;
     }
-
 
     if (contsis!=0){
     porcentajesis = (contsis * 100) / contalumnostotales;
-    console.log("c) 3- El porcentaje de los que estudian sistemas es " + porcentajesis);
     }else{
-        console.log("c) 3- El porcentaje de los que estudian sistemas es 0 ");
-
+        porcentajesis=0;
     }
+
+
+    console.log("c) Los porcentajes de los que estudian son;  Fisica" + porcentajefis+", Quimica "+porcentajequim+" y  Sistemas "+porcentajesis);
+
 
     //--------------------------D
     if (flagestudiantemascursa == 0) {

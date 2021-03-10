@@ -9,10 +9,14 @@ a) promedio de sueldos para cada puesto
 b) el sexo del que percibe el mayor sueldo
 c) el nombre del empleado femenino con mas sueldo
 d) cantidad de programadores no binarios que cobran sueldos entre 20000 y 55000*/
+
+
+//Josue Suarez
+
+
 function mostrar()
 {
 
-let respuesta;
 let nombre;
 let sexo;
 let puesto;
@@ -25,7 +29,7 @@ let mujermayorsueldo;
 let flagmujermayorsueldo=1;
 let cantidadprogramadoresnobin=0;
 let flagnobin=1;
-
+let respuesta;
 let acumprog=0;
 let acuman=0;
 let acumqa=0;
@@ -35,8 +39,6 @@ let contqa=0;
 let promprog=0;
 let proman=0;
 let promqa=0;
-
-
 
 
 do{

@@ -14,7 +14,7 @@ c) El promedio de la cantidad de lamparas vendidas de cada marca.
 d) La marca que mas ventas realizo (sin importar la cantidad de lamparas vendidas)*/
 
 
-
+//Josue Suarez
 
 
 function mostrar()
