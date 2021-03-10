@@ -55,8 +55,8 @@ do{
 	}
 
 	  puesto = prompt("Ingrese su puesto: programador - analista - Qa");
-	  while (obrasocial != "programador" && obrasocial != "analista" && obrasocial != "Qa") {
-		obrasocial = prompt( "Error. Ingrese su puesto: programador - analista - Qa"  );
+	  while (puesto != "programador" && puesto != "analista" && puesto != "Qa") {
+		puesto = prompt( "Error. Ingrese su puesto: programador - analista - Qa"  );
 	  }
 
 	sueldo = parseFloat(prompt("Ingrese sueldo entre 15000 y 70000"));
